@@ -1,12 +1,12 @@
 .container{
-    width: 650rpx;
-    height: 500rpx;
+    width: 710rpx;
+    height: 560rpx;
     background-image: linear-gradient(135deg,#CAFBD5,#F3DD93,#F77C7D) ;
-    border-radius: 30rpx;
+    border-radius: 25rpx;
 }
 .container .title{
-    padding-top: 5rpx;
-    margin: 15rpx 20rpx;
+    /*padding-top: 5rpx;*/
+    margin: 15rpx 0rpx 0rpx 15rpx ;
     font-size: 45rpx;
     font-weight: bold;
     color: white;
@@ -29,45 +29,66 @@
 .photo{
     display: flex;
 }
-.photo img{
-    border-radius: 50rpx;
+.photo image{
+    border-radius: 32rpx;
 }
 
-.photo .leftp img{
+.photo .leftp image{
     margin-left: 12rpx;
-    width: 210rpx;
-    height: 335rpx;
+    width: 284rpx;
+    height: 372rpx;
 }
 .rightp{
     margin-left: 20rpx;
     display: flex;
     flex-direction: column;
 }
-.rightp img{
+.rightp image{
     padding-bottom: 10rpx;
     object-fit: cover;
 }
-.rightp>img:first-child{
-    width: 335rpx;
-    height: 150rpx;
+.rightp>image:first-child{
+    width: 375rpx;
+    height: 180rpx;
 }
-.rightp>img:nth-child(2){
-    width: 335rpx;
-    height: 175rpx;
+.rightp>image:nth-child(2){
+    width: 375rpx;
+    height: 182rpx;
 }
 .bottom{
     display: flex;
     justify-content: space-between;
 }
 .bottom .talk{
-    padding-left: 15rpx;
+    padding-left: 25rpx;
     color: white;
-    font-size: 21rpx;
+    font-size: 36rpx;
     font-weight: 600;
 }
-.lt{
-    width: 80rpx;
-    margin-right: 10rpx;
+.landt{
+    width:200rpx;
     display: flex;
     justify-content:space-between;
+}
+.like{
+    display: flex;
+    width: 110rpx;
+    justify-content: space-between;
+}
+.like image{
+    margin-top: 2rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+.like span{
+    margin-top: 8rpx;
+    display: block;
+    width: 50rpx;
+    height: 50rpx;
+    font-size: 43rpx;
+}
+.landt image{
+    margin-right: 10rpx ;
+    width: 63rpx;
+    height: 63rpx;
 }

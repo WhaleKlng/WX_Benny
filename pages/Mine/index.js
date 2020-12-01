@@ -12,11 +12,13 @@ Page({
         lists: ["关注商品", "参与论贴", "我的收藏", "平台公约", "意见反馈", "关于我们"],
     },
 
+
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        console.log(getCurrentPages());
+        
     },
 
     /**

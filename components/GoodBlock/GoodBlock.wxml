@@ -1,23 +1,29 @@
 <view class="container">
-    <view class="title">琉璃</view>
+    <view class="title">
+        <span>琉璃</span>
+    </view>
     <view class="description">
         <view class="dectxt">🏠 茗林尚品 原创汉服</view>
         <view class="money">￥220</view>
     </view>
     <view class="photo">
         <view class="leftp">
-            <image src="" alt=""></image>
+            <image src="{{imgList[0]}}"></image>
         </view>
         <view class="rightp">
-            <image src="" alt=""></image>
-            <image src="" alt=""></image>
+            <image src="{{imgList[1]}}"></image>
+            <image src="{{imgList[2]}}"></image>
         </view>
     </view>
     <view class="bottom">
-        <view class="talk"></view>
+        <view class="talk">✍️  参与评论</view>
         <view class="landt">
-            <view class="like"></view>
-            <view class="turns"></view>
+            <view class="like">
+                <image src="./img/like.svg"></image>
+                <span>11</span>
+            </view>
+            <image src="./img/forward.svg"></image>
+<!--            <view class="turns">zhuanfa</view>-->
         </view>
     </view>
 </view>

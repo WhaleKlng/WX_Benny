@@ -21,20 +21,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "./tabBarIcons/6.png",
-        "selectedIconPath": "./tabBarIcons/6-se.png"
+        "iconPath": "./icons/tabBarIcons/6.png",
+        "selectedIconPath": "./icons/tabBarIcons/6-se.png"
       },
       {
         "pagePath": "pages/NewGoods/index",
         "text": "上新",
-        "iconPath": "./tabBarIcons/7.png",
-        "selectedIconPath": "./tabBarIcons/7-se.png"
+        "iconPath": "./icons/tabBarIcons/7.png",
+        "selectedIconPath": "./icons/tabBarIcons/7-se.png"
       },
       {
         "pagePath": "pages/Mine/index",
         "text": "我的",
-        "iconPath": "./tabBarIcons/5.png",
-        "selectedIconPath": "./tabBarIcons/5-se.png"
+        "iconPath": "./icons/tabBarIcons/5.png",
+        "selectedIconPath": "./icons/tabBarIcons/5-se.png"
       }
     ]
   },
