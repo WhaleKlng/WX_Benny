@@ -5,7 +5,7 @@
     border-radius: 25rpx;
 }
 .container .title{
-    /*padding-top: 5rpx;*/
+
     margin: 15rpx 0rpx 0rpx 15rpx ;
     font-size: 45rpx;
     font-weight: bold;
@@ -66,7 +66,7 @@
     font-weight: 600;
 }
 .landt{
-    width:200rpx;
+    width:250rpx;
     display: flex;
     justify-content:space-between;
 }
